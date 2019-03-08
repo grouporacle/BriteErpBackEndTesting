@@ -15,7 +15,8 @@ import org.junit.Assert;
  * This is a utility for reading from writing to excel files.
  * it works with xls and xlsx files.
  */
-public class ExcelUtil {
+public class
+ExcelUtil {
 
     private Sheet workSheet;
     private Workbook workBook;
