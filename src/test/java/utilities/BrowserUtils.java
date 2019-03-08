@@ -69,6 +69,11 @@ public class BrowserUtils {
         }
         return elemTexts;
     }
+    /** To Wait Until Title is */
+    public static void explicitWaitTitleIs(int time, String title) {
+        WebDriverWait titleIs = new WebDriverWait(Driver.getDriver(), time);
+        titleIs.until(ExpectedConditions.titleIs(title));
+    }
 
     public static WebElement waitForVisibility(WebElement element, int timeToWaitInSec) {
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(), timeToWaitInSec);
