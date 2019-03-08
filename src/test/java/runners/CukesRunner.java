@@ -15,9 +15,9 @@ import org.junit.runner.RunWith;
               "json:target/cucumber.json"
         },
         features = {"src/test/resources/features"},
-        glue = "com/BriteErp/step_definitions"
+        glue = "step_definitions"
         , dryRun = false
-        , tags = "@wip"
+        , tags = "@BRIT-4441"
 )
 public class CukesRunner {
 
