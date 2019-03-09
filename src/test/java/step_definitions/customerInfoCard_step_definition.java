@@ -45,7 +45,12 @@ public class customerInfoCard_step_definition {
 
                 customersPage.nameField.sendKeys(listInfoCard.get(i).get(columnKey.get(j++)));
                 customersPage.company_field.sendKeys(listInfoCard.get(i).get(columnKey.get(j++)));
-                customersPage.company_select.click();
+              //  customersPage.company_select.click(); examine
+            action.moveToElement(customersPage.trigger);
+            action.click().build().perform();
+            if(customersPage.companyCreationCreateButton.isDisplayed()){
+                BrowserUtils.waitForVisibility(Driver.getDriver().findElement(By.className("modal-content")),15);
+                customersPage.companyCreationCreateButton.click();}
                 BrowserUtils.waitForVisibility(customersPage.addressType,5);
                 new Select(customersPage.addressType).selectByVisibleText("Other address");
 
@@ -55,10 +60,9 @@ public class customerInfoCard_step_definition {
                 customersPage.city.sendKeys(listInfoCard.get(i).get(columnKey.get(j++)));
                 customersPage.state.clear();
                 customersPage.state.sendKeys(listInfoCard.get(i).get(columnKey.get(j++)));
-            //trigger
-            action.moveToElement(customersPage.trigger);
-            action.click().build().perform();
-            //trigger ends
+                BrowserUtils.wait(1);
+                customersPage.state.sendKeys(Keys.ENTER);
+
 
                 customersPage.zip.sendKeys(listInfoCard.get(i).get(columnKey.get(j++)));
                 customersPage.tag_field.sendKeys(listInfoCard.get(i).get(columnKey.get(j++)));
@@ -68,7 +72,8 @@ public class customerInfoCard_step_definition {
             if(customersPage.companyCreationCreateButton.isDisplayed()){
                 BrowserUtils.waitForVisibility(Driver.getDriver().findElement(By.className("modal-content")),15);
                 customersPage.companyCreationCreateButton.click();}
-            customersPage.job_position.click();
+            action.moveToElement(customersPage.trigger);
+            action.click().build().perform();
             //trigger ends
 
                 customersPage.job_position.click();

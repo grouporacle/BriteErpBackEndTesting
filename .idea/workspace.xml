@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f994f703-ecef-4f66-a164-903f6d4e70a3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/repo/bookit-acceptence-tests-parallel-dbtest" beforeDir="false" afterPath="$PROJECT_DIR$/repo/bookit-acceptence-tests-parallel-dbtest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CustomersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CustomersPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/customerInfoCard_step_definition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/customerInfoCard_step_definition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/CustomerInfoCard.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/CustomerInfoCard.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/test_data/Phase5project.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/test_data/Phase5project.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/CustomerInfoCard.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/CustomerInfoCard.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/CustomersPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/CustomersPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/step_definitions/customerInfoCard_step_definition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_definitions/customerInfoCard_step_definition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test_data/Phase5project.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test_data/Phase5project.xlsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/customerInfoCard_step_definition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="96" column="47" selection-start-line="96" selection-start-column="47" selection-end-line="96" selection-end-column="47" />
+            <state relative-caret-position="364">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pages/CustomersPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="96" column="60" selection-start-line="96" selection-start-column="60" selection-end-line="96" selection-end-column="60" />
+            <state relative-caret-position="41">
+              <caret line="100" column="21" lean-forward="true" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -205,7 +193,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552133459543" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552134711309" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -308,24 +296,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CukesRunner - 2019.03.09 at 05h 22m 50s.xml">
-      <configuration name="CukesRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CukesRunner - 2019.03.09 at 05h 26m 14s.xml">
-      <configuration name="CukesRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CukesRunner - 2019.03.09 at 05h 29m 05s.xml">
-      <configuration name="CukesRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CukesRunner - 2019.03.09 at 05h 34m 19s.xml">
-      <configuration name="CukesRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CukesRunner - 2019.03.09 at 05h 40m 00s.xml">
-      <configuration name="CukesRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CukesRunner - 2019.03.09 at 05h 45m 54s.xml">
-      <configuration name="CukesRunner" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CukesRunner - 2019.03.09 at 05h 48m 34s.xml">
       <configuration name="CukesRunner" configurationId="JUnit" />
     </history-entry>
@@ -336,6 +306,24 @@
       <configuration name="CukesRunner" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CukesRunner - 2019.03.09 at 06h 02m 57s.xml">
+      <configuration name="CukesRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CukesRunner - 2019.03.09 at 06h 12m 55s.xml">
+      <configuration name="CukesRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CukesRunner - 2019.03.09 at 06h 17m 25s.xml">
+      <configuration name="CukesRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CukesRunner - 2019.03.09 at 06h 19m 22s.xml">
+      <configuration name="CukesRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CukesRunner - 2019.03.09 at 06h 22m 41s.xml">
+      <configuration name="CukesRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CukesRunner - 2019.03.09 at 06h 25m 48s.xml">
+      <configuration name="CukesRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CukesRunner - 2019.03.09 at 06h 28m 39s.xml">
       <configuration name="CukesRunner" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -358,7 +346,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3290461" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.4330118" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" weight="0.4330118" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3279743" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -569,8 +557,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/CustomersPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="96" column="60" selection-start-line="96" selection-start-column="60" selection-end-line="96" selection-end-column="60" />
+        <state relative-caret-position="41">
+          <caret line="100" column="21" lean-forward="true" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -579,8 +567,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/customerInfoCard_step_definition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="96" column="47" selection-start-line="96" selection-start-column="47" selection-end-line="96" selection-end-column="47" />
+        <state relative-caret-position="364">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
