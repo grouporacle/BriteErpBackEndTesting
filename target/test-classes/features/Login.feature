@@ -1,4 +1,4 @@
-@login
+
 Feature: login functionality
   Background:automatically gets in crm module every time
     Given the user goes to url

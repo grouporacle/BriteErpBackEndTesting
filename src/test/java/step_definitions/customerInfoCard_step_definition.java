@@ -4,10 +4,8 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.Keys;
-import utilities.ApplicationConstants;
-import utilities.BrowserUtils;
-import utilities.ExcelUtil;
-import utilities.Pages;
+import pages.LoginPage;
+import utilities.*;
 
 import java.util.List;
 import java.util.Map;
@@ -24,18 +22,29 @@ public class customerInfoCard_step_definition extends BrowserUtils {
     List<Map<String,String >> listInfoCard =excelTestData.getDataList();
 
 
-    @Given("the user is on Customers page")
-    public void the_user_is_on_Customers_page() {
+
+    @Then("{string} clicks on {string} module")
+    public void clicks_on_module(String string, String string2) {
+        BrowserUtils.explicitWaitTitleIs(15, ApplicationConstants.INBOX);
         pages.homePage().CRMheader.click();
-        BrowserUtils.explicitWaitTitleIs(10, ApplicationConstants.PIPELINETITLE);
+
 
     }
-    @When("the user clicks on Create button")
-    public void the_user_clicks_on_Create_button() {
+
+    @Then("{string} clicks on {string} page")
+    public void clicks_on_page(String string, String string2) {
+        pages.homePage().customersHeader.click();
+        BrowserUtils.explicitWaitTitleIs(10, ApplicationConstants.CUSTOMERSTITLE);
+        System.out.println("A user is going to create a new customer information card");
+    }
+
+    @When("{string} clicks on {string} button")
+    public void clicks_on_button(String string, String string2) {
         pages.getCustomersPage().customerCardCreateButton.click();
         BrowserUtils.explicitWaitTitleIs(10, ApplicationConstants.NEWTITLE);
         System.out.println("A user is going to create a new customer information card");
     }
+
 
     @When("{string} sendKeys {string} from excel {string}, {string} sheet")
     public void sendkeys_from_excel_sheet(String actualUser, Integer i, String excelName, String sheetName) {
@@ -71,7 +80,7 @@ public class customerInfoCard_step_definition extends BrowserUtils {
         System.out.println(pages.getCustomersPage().streetField1.getText());
         System.out.println(pages.getCustomersPage().streetField2.getText());
         System.out.println(pages.getCustomersPage().city.getText());
-        //System.out.println();
+
     }
 
     @Then("{string} should be able to see {string} in Database from excel {string}, {string} sheet")

@@ -11,7 +11,7 @@ import utilities.Driver;
 import java.util.concurrent.TimeUnit;
 
 public class Hooks {
-    @Before(order = 2)
+    @Before
     public void setUp(){
         System.out.println("I am setting up the test from the Hooks class!!!");
         Driver.getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -19,7 +19,7 @@ public class Hooks {
         Driver.getDriver().manage().window().maximize();
     }
 
- //   @After
+    @After
     public void tearDown(Scenario scenario){
         System.out.println("I am reporting the results");
         // I want to take screenshot when current scenario fails.
