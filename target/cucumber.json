@@ -1,63 +1,12 @@
 [
   {
-    "line": 3,
+    "line": 2,
     "elements": [
-      {
-        "line": 4,
-        "name": "automaticly gets in crm module every time",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 7545097500,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "the user goes to url",
-            "match": {
-              "location": "login_step_definitions.the_user_goes_to_url()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 3584580500,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "the \"user\" enters valid email and password",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"user\"",
-                  "offset": 4
-                }
-              ],
-              "location": "login_step_definitions.the_enters_valid_email_and_password(String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1469228800,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "the user clicks on CRM module",
-            "match": {
-              "location": "login_step_definitions.the_user_clicks_on_CRM_module()"
-            },
-            "keyword": "When "
-          }
-        ]
-      },
       {
         "before": [
           {
             "result": {
-              "duration": 24825978100,
+              "duration": 23188320600,
               "status": "passed"
             },
             "match": {
@@ -65,54 +14,42 @@
             }
           }
         ],
-        "line": 9,
-        "name": "Check customer creation functionality",
+        "line": 11,
+        "name": "The user fills out required lines from excel \"Phase V\", \"CustomerCardInformation\" sheet",
         "description": "",
-        "id": "login-functionality;check-customer-creation-functionality",
+        "id": "briteerp-database-and-ui-data-verification-(user-perspective);the-user-fills-out-required-lines-from-excel-\"phase-v\"--\"customercardinformation\"-sheet",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1245770700,
+              "duration": 8090186900,
               "status": "passed"
             },
-            "line": 10,
-            "name": "the user clicks on Customers page",
+            "line": 14,
+            "name": "\"User\" sendKeys \"fill all lines out\" from excel \"Phase V\", \"CustomerCardInformation\" sheet",
             "match": {
-              "location": "login_step_definitions.the_user_clicks_on_Customers_page()"
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"fill all lines out\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"Phase V\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"CustomerCardInformation\"",
+                  "offset": 59
+                }
+              ],
+              "location": "customerInfoCard_step_definition.sendkeys_from_excel_sheet(String,String,String,String)"
             },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2959250400,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "the user clicks on Create button -Customers",
-            "match": {
-              "location": "login_step_definitions.the_user_clicks_on_Create_button_Customers()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 12,
-            "name": "fill out file with proper informtion and create customer information",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 13,
-            "name": "check if its match with db",
-            "match": {},
-            "keyword": "Then "
+            "keyword": "When "
           }
         ],
         "tags": [
@@ -120,44 +57,13 @@
             "name": "@BRIT-4441"
           }
         ]
-      },
-      {
-        "line": 4,
-        "name": "automaticly gets in crm module every time",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": []
-      },
-      {
-        "line": 16,
-        "name": "user login",
-        "description": "",
-        "id": "login-functionality;user-login",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [],
-        "tags": [
-          {
-            "name": "@BRIT-4441"
-          }
-        ]
       }
     ],
-    "name": "login functionality",
+    "name": "BriteErp Database and UI Data verification (user perspective)",
     "description": "",
-    "id": "login-functionality",
+    "id": "briteerp-database-and-ui-data-verification-(user-perspective)",
     "keyword": "Feature",
-    "uri": "src\\test\\resources\\features\\Login.feature",
-    "tags": [
-      {
-        "name": "@BRIT-4441",
-        "type": "Tag",
-        "location": {
-          "line": 2,
-          "column": 1
-        }
-      }
-    ]
+    "uri": "src\\test\\resources\\features\\CustomerInfoCard.feature",
+    "tags": []
   }
 ]
