@@ -1,0 +1,1806 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5353070870,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "The user fills out required lines from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+        "description": "",
+        "id": "briteerp-database-and-ui-data-verification-(user-perspective);the-user-fills-out-required-lines-from-excel-\"phase-v\"--\"customerinfocard1\"-sheet;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\"oe_main_menu_navbar\"]/div[2]/ul[1]/li[5]/a\"}\n  (Session info: chrome\u003d72.0.3626.121)\n  (Driver info: chromedriver\u003d2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-2KH7HMM\u0027, ip: \u0027192.168.12.38\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\\Users\\aibek\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64202}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}\nSession ID: 5819ba8c67f8d42a12a706b6de2de885\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\"oe_main_menu_navbar\"]/div[2]/ul[1]/li[5]/a}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy16.click(Unknown Source)\r\n\tat step_definitions.customerInfoCard_step_definition.the_user_is_on_Customers_page(customerInfoCard_step_definition.java:29)\r\n\tat ✽.the user is on Customers page(src\\test\\resources\\features\\CustomerInfoCard.feature:6)\r\n",
+              "duration": 10895536551,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "the user is on Customers page",
+            "match": {
+              "location": "customerInfoCard_step_definition.the_user_is_on_Customers_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 37526,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "the user clicks on Create button",
+            "match": {
+              "location": "customerInfoCard_step_definition.the_user_clicks_on_Create_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28787,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "\"User\" sendKeys \"0\" from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"0\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"Phase V\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"CustomerInfoCard1\"",
+                  "offset": 42
+                }
+              ],
+              "location": "customerInfoCard_step_definition.sendkeys_from_excel_sheet(String,Integer,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45752,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "\"User\" clicks \"Save\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Save\"",
+                  "offset": 14
+                }
+              ],
+              "location": "customerInfoCard_step_definition.clicks_button(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25703,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "\"User\" should be able to see \"0\" on page from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"0\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Phase V\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"CustomerInfoCard1\"",
+                  "offset": 63
+                }
+              ],
+              "location": "customerInfoCard_step_definition.should_be_able_to_see_on_page_from_excel_sheet(String,Integer,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 37012,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "\"User\" should be able to see \"0\" in Database from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"0\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Phase V\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"CustomerInfoCard1\"",
+                  "offset": 67
+                }
+              ],
+              "location": "customerInfoCard_step_definition.should_be_able_to_see_in_Database_from_excel_sheet(String,String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BRIT-4441"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 21548215,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "The user fills out required lines from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+        "description": "",
+        "id": "briteerp-database-and-ui-data-verification-(user-perspective);the-user-fills-out-required-lines-from-excel-\"phase-v\"--\"customerinfocard1\"-sheet;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath\u003d//*[@id\u003d\"oe_main_menu_navbar\"]/div[2]/ul[1]/li[5]/a\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-2KH7HMM\u0027, ip: \u0027192.168.12.38\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy16.click(Unknown Source)\r\n\tat step_definitions.customerInfoCard_step_definition.the_user_is_on_Customers_page(customerInfoCard_step_definition.java:29)\r\n\tat ✽.the user is on Customers page(src\\test\\resources\\features\\CustomerInfoCard.feature:6)\r\n",
+              "duration": 1633425384,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "the user is on Customers page",
+            "match": {
+              "location": "customerInfoCard_step_definition.the_user_is_on_Customers_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 27759,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "the user clicks on Create button",
+            "match": {
+              "location": "customerInfoCard_step_definition.the_user_clicks_on_Create_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11309,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "\"User\" sendKeys \"1\" from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"Phase V\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"CustomerInfoCard1\"",
+                  "offset": 42
+                }
+              ],
+              "location": "customerInfoCard_step_definition.sendkeys_from_excel_sheet(String,Integer,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11309,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "\"User\" clicks \"Save\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Save\"",
+                  "offset": 14
+                }
+              ],
+              "location": "customerInfoCard_step_definition.clicks_button(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11823,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "\"User\" should be able to see \"1\" on page from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Phase V\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"CustomerInfoCard1\"",
+                  "offset": 63
+                }
+              ],
+              "location": "customerInfoCard_step_definition.should_be_able_to_see_on_page_from_excel_sheet(String,Integer,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12337,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "\"User\" should be able to see \"1\" in Database from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Phase V\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"CustomerInfoCard1\"",
+                  "offset": 67
+                }
+              ],
+              "location": "customerInfoCard_step_definition.should_be_able_to_see_in_Database_from_excel_sheet(String,String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BRIT-4441"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d72.0.3626.121)\n  (Driver info: chromedriver\u003d2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-2KH7HMM\u0027, ip: \u0027192.168.12.38\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\\Users\\aibek\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64202}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}\nSession ID: 5819ba8c67f8d42a12a706b6de2de885\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)\r\n\tat step_definitions.Hooks.setUp(Hooks.java:19)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:63)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:49)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:40)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:40)\r\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:67)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:22)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:72)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:122)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:64)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:131)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)\r\n\tat com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)\r\n\tat com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)\r\n\tat com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)\r\n",
+              "duration": 21531251,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "The user fills out required lines from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+        "description": "",
+        "id": "briteerp-database-and-ui-data-verification-(user-perspective);the-user-fills-out-required-lines-from-excel-\"phase-v\"--\"customerinfocard1\"-sheet;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 42666,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "the user is on Customers page",
+            "match": {
+              "location": "customerInfoCard_step_definition.the_user_is_on_Customers_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19534,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "the user clicks on Create button",
+            "match": {
+              "location": "customerInfoCard_step_definition.the_user_clicks_on_Create_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31358,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "\"User\" sendKeys \"2\" from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"Phase V\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"CustomerInfoCard1\"",
+                  "offset": 42
+                }
+              ],
+              "location": "customerInfoCard_step_definition.sendkeys_from_excel_sheet(String,Integer,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17992,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "\"User\" clicks \"Save\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Save\"",
+                  "offset": 14
+                }
+              ],
+              "location": "customerInfoCard_step_definition.clicks_button(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13880,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "\"User\" should be able to see \"2\" on page from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Phase V\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"CustomerInfoCard1\"",
+                  "offset": 63
+                }
+              ],
+              "location": "customerInfoCard_step_definition.should_be_able_to_see_on_page_from_excel_sheet(String,Integer,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 23647,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "\"User\" should be able to see \"2\" in Database from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Phase V\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"CustomerInfoCard1\"",
+                  "offset": 67
+                }
+              ],
+              "location": "customerInfoCard_step_definition.should_be_able_to_see_in_Database_from_excel_sheet(String,String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BRIT-4441"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d72.0.3626.121)\n  (Driver info: chromedriver\u003d2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-2KH7HMM\u0027, ip: \u0027192.168.12.38\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\\Users\\aibek\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64202}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}\nSession ID: 5819ba8c67f8d42a12a706b6de2de885\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)\r\n\tat step_definitions.Hooks.setUp(Hooks.java:19)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:63)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:49)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:40)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:40)\r\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:67)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:22)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:72)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:122)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:64)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:131)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)\r\n\tat com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)\r\n\tat com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)\r\n\tat com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)\r\n",
+              "duration": 28649903,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "The user fills out required lines from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+        "description": "",
+        "id": "briteerp-database-and-ui-data-verification-(user-perspective);the-user-fills-out-required-lines-from-excel-\"phase-v\"--\"customerinfocard1\"-sheet;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 48836,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "the user is on Customers page",
+            "match": {
+              "location": "customerInfoCard_step_definition.the_user_is_on_Customers_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13366,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "the user clicks on Create button",
+            "match": {
+              "location": "customerInfoCard_step_definition.the_user_clicks_on_Create_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39069,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "\"User\" sendKeys \"3\" from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"3\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"Phase V\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"CustomerInfoCard1\"",
+                  "offset": 42
+                }
+              ],
+              "location": "customerInfoCard_step_definition.sendkeys_from_excel_sheet(String,Integer,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10795,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "\"User\" clicks \"Save\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Save\"",
+                  "offset": 14
+                }
+              ],
+              "location": "customerInfoCard_step_definition.clicks_button(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8225,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "\"User\" should be able to see \"3\" on page from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"3\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Phase V\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"CustomerInfoCard1\"",
+                  "offset": 63
+                }
+              ],
+              "location": "customerInfoCard_step_definition.should_be_able_to_see_on_page_from_excel_sheet(String,Integer,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 44209,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "\"User\" should be able to see \"3\" in Database from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"3\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Phase V\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"CustomerInfoCard1\"",
+                  "offset": 67
+                }
+              ],
+              "location": "customerInfoCard_step_definition.should_be_able_to_see_in_Database_from_excel_sheet(String,String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BRIT-4441"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d72.0.3626.121)\n  (Driver info: chromedriver\u003d2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-2KH7HMM\u0027, ip: \u0027192.168.12.38\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\\Users\\aibek\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64202}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}\nSession ID: 5819ba8c67f8d42a12a706b6de2de885\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)\r\n\tat step_definitions.Hooks.setUp(Hooks.java:19)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:63)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:49)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:40)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:40)\r\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:67)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:22)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:72)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:122)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:64)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:131)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)\r\n\tat com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)\r\n\tat com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)\r\n\tat com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)\r\n",
+              "duration": 17357113,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "The user fills out required lines from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+        "description": "",
+        "id": "briteerp-database-and-ui-data-verification-(user-perspective);the-user-fills-out-required-lines-from-excel-\"phase-v\"--\"customerinfocard1\"-sheet;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12337,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "the user is on Customers page",
+            "match": {
+              "location": "customerInfoCard_step_definition.the_user_is_on_Customers_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8739,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "the user clicks on Create button",
+            "match": {
+              "location": "customerInfoCard_step_definition.the_user_clicks_on_Create_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5654,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "\"User\" sendKeys \"4\" from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"4\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"Phase V\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"CustomerInfoCard1\"",
+                  "offset": 42
+                }
+              ],
+              "location": "customerInfoCard_step_definition.sendkeys_from_excel_sheet(String,Integer,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5140,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "\"User\" clicks \"Save\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Save\"",
+                  "offset": 14
+                }
+              ],
+              "location": "customerInfoCard_step_definition.clicks_button(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5141,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "\"User\" should be able to see \"4\" on page from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"4\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Phase V\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"CustomerInfoCard1\"",
+                  "offset": 63
+                }
+              ],
+              "location": "customerInfoCard_step_definition.should_be_able_to_see_on_page_from_excel_sheet(String,Integer,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5140,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "\"User\" should be able to see \"4\" in Database from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"4\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Phase V\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"CustomerInfoCard1\"",
+                  "offset": 67
+                }
+              ],
+              "location": "customerInfoCard_step_definition.should_be_able_to_see_in_Database_from_excel_sheet(String,String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BRIT-4441"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d72.0.3626.121)\n  (Driver info: chromedriver\u003d2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-2KH7HMM\u0027, ip: \u0027192.168.12.38\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\\Users\\aibek\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64202}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}\nSession ID: 5819ba8c67f8d42a12a706b6de2de885\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)\r\n\tat step_definitions.Hooks.setUp(Hooks.java:19)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:63)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:49)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:40)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:40)\r\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:67)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:22)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:72)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:122)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:64)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:131)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)\r\n\tat com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)\r\n\tat com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)\r\n\tat com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)\r\n",
+              "duration": 14127297,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "The user fills out required lines from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+        "description": "",
+        "id": "briteerp-database-and-ui-data-verification-(user-perspective);the-user-fills-out-required-lines-from-excel-\"phase-v\"--\"customerinfocard1\"-sheet;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 37526,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "the user is on Customers page",
+            "match": {
+              "location": "customerInfoCard_step_definition.the_user_is_on_Customers_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21076,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "the user clicks on Create button",
+            "match": {
+              "location": "customerInfoCard_step_definition.the_user_clicks_on_Create_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24675,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "\"User\" sendKeys \"5\" from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"5\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"Phase V\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"CustomerInfoCard1\"",
+                  "offset": 42
+                }
+              ],
+              "location": "customerInfoCard_step_definition.sendkeys_from_excel_sheet(String,Integer,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8739,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "\"User\" clicks \"Save\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Save\"",
+                  "offset": 14
+                }
+              ],
+              "location": "customerInfoCard_step_definition.clicks_button(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9253,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "\"User\" should be able to see \"5\" on page from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"5\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Phase V\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"CustomerInfoCard1\"",
+                  "offset": 63
+                }
+              ],
+              "location": "customerInfoCard_step_definition.should_be_able_to_see_on_page_from_excel_sheet(String,Integer,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9253,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "\"User\" should be able to see \"5\" in Database from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"5\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Phase V\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"CustomerInfoCard1\"",
+                  "offset": 67
+                }
+              ],
+              "location": "customerInfoCard_step_definition.should_be_able_to_see_in_Database_from_excel_sheet(String,String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BRIT-4441"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d72.0.3626.121)\n  (Driver info: chromedriver\u003d2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-2KH7HMM\u0027, ip: \u0027192.168.12.38\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\\Users\\aibek\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64202}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}\nSession ID: 5819ba8c67f8d42a12a706b6de2de885\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)\r\n\tat step_definitions.Hooks.setUp(Hooks.java:19)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:63)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:49)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:40)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:40)\r\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:67)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:22)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:72)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:122)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:64)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:131)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)\r\n\tat com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)\r\n\tat com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)\r\n\tat com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)\r\n",
+              "duration": 16166045,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "The user fills out required lines from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+        "description": "",
+        "id": "briteerp-database-and-ui-data-verification-(user-perspective);the-user-fills-out-required-lines-from-excel-\"phase-v\"--\"customerinfocard1\"-sheet;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10281,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "the user is on Customers page",
+            "match": {
+              "location": "customerInfoCard_step_definition.the_user_is_on_Customers_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7711,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "the user clicks on Create button",
+            "match": {
+              "location": "customerInfoCard_step_definition.the_user_clicks_on_Create_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7711,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "\"User\" sendKeys \"6\" from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"6\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"Phase V\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"CustomerInfoCard1\"",
+                  "offset": 42
+                }
+              ],
+              "location": "customerInfoCard_step_definition.sendkeys_from_excel_sheet(String,Integer,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4112,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "\"User\" clicks \"Save\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Save\"",
+                  "offset": 14
+                }
+              ],
+              "location": "customerInfoCard_step_definition.clicks_button(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4112,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "\"User\" should be able to see \"6\" on page from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"6\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Phase V\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"CustomerInfoCard1\"",
+                  "offset": 63
+                }
+              ],
+              "location": "customerInfoCard_step_definition.should_be_able_to_see_on_page_from_excel_sheet(String,Integer,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4113,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "\"User\" should be able to see \"6\" in Database from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"6\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Phase V\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"CustomerInfoCard1\"",
+                  "offset": 67
+                }
+              ],
+              "location": "customerInfoCard_step_definition.should_be_able_to_see_in_Database_from_excel_sheet(String,String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BRIT-4441"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d72.0.3626.121)\n  (Driver info: chromedriver\u003d2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-2KH7HMM\u0027, ip: \u0027192.168.12.38\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\\Users\\aibek\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64202}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}\nSession ID: 5819ba8c67f8d42a12a706b6de2de885\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)\r\n\tat step_definitions.Hooks.setUp(Hooks.java:19)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:63)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:49)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:40)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:40)\r\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:67)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:22)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:72)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:122)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:64)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:131)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)\r\n\tat com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)\r\n\tat com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)\r\n\tat com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)\r\n",
+              "duration": 13730959,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "The user fills out required lines from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+        "description": "",
+        "id": "briteerp-database-and-ui-data-verification-(user-perspective);the-user-fills-out-required-lines-from-excel-\"phase-v\"--\"customerinfocard1\"-sheet;;9",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15421,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "the user is on Customers page",
+            "match": {
+              "location": "customerInfoCard_step_definition.the_user_is_on_Customers_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9253,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "the user clicks on Create button",
+            "match": {
+              "location": "customerInfoCard_step_definition.the_user_clicks_on_Create_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6683,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "\"User\" sendKeys \"7\" from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"7\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"Phase V\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"CustomerInfoCard1\"",
+                  "offset": 42
+                }
+              ],
+              "location": "customerInfoCard_step_definition.sendkeys_from_excel_sheet(String,Integer,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17992,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "\"User\" clicks \"Save\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Save\"",
+                  "offset": 14
+                }
+              ],
+              "location": "customerInfoCard_step_definition.clicks_button(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13880,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "\"User\" should be able to see \"7\" on page from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"7\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Phase V\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"CustomerInfoCard1\"",
+                  "offset": 63
+                }
+              ],
+              "location": "customerInfoCard_step_definition.should_be_able_to_see_on_page_from_excel_sheet(String,Integer,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8739,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "\"User\" should be able to see \"7\" in Database from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"7\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Phase V\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"CustomerInfoCard1\"",
+                  "offset": 67
+                }
+              ],
+              "location": "customerInfoCard_step_definition.should_be_able_to_see_in_Database_from_excel_sheet(String,String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BRIT-4441"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d72.0.3626.121)\n  (Driver info: chromedriver\u003d2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-2KH7HMM\u0027, ip: \u0027192.168.12.38\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\\Users\\aibek\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64202}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}\nSession ID: 5819ba8c67f8d42a12a706b6de2de885\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)\r\n\tat step_definitions.Hooks.setUp(Hooks.java:19)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:63)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:49)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:40)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:40)\r\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:67)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:22)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:72)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:122)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:64)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:131)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)\r\n\tat com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)\r\n\tat com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)\r\n\tat com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)\r\n",
+              "duration": 15705450,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "The user fills out required lines from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+        "description": "",
+        "id": "briteerp-database-and-ui-data-verification-(user-perspective);the-user-fills-out-required-lines-from-excel-\"phase-v\"--\"customerinfocard1\"-sheet;;10",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15935,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "the user is on Customers page",
+            "match": {
+              "location": "customerInfoCard_step_definition.the_user_is_on_Customers_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9767,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "the user clicks on Create button",
+            "match": {
+              "location": "customerInfoCard_step_definition.the_user_clicks_on_Create_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24675,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "\"User\" sendKeys \"8\" from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"8\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"Phase V\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"CustomerInfoCard1\"",
+                  "offset": 42
+                }
+              ],
+              "location": "customerInfoCard_step_definition.sendkeys_from_excel_sheet(String,Integer,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4626,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "\"User\" clicks \"Save\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Save\"",
+                  "offset": 14
+                }
+              ],
+              "location": "customerInfoCard_step_definition.clicks_button(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4627,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "\"User\" should be able to see \"8\" on page from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"8\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Phase V\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"CustomerInfoCard1\"",
+                  "offset": 63
+                }
+              ],
+              "location": "customerInfoCard_step_definition.should_be_able_to_see_on_page_from_excel_sheet(String,Integer,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7711,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "\"User\" should be able to see \"8\" in Database from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"8\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Phase V\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"CustomerInfoCard1\"",
+                  "offset": 67
+                }
+              ],
+              "location": "customerInfoCard_step_definition.should_be_able_to_see_in_Database_from_excel_sheet(String,String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BRIT-4441"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d72.0.3626.121)\n  (Driver info: chromedriver\u003d2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-2KH7HMM\u0027, ip: \u0027192.168.12.38\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\\Users\\aibek\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64202}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}\nSession ID: 5819ba8c67f8d42a12a706b6de2de885\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)\r\n\tat step_definitions.Hooks.setUp(Hooks.java:19)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:63)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:49)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:40)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:40)\r\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:67)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:22)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:72)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:122)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:64)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:131)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)\r\n\tat com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)\r\n\tat com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)\r\n\tat com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)\r\n",
+              "duration": 6301303,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "The user fills out required lines from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+        "description": "",
+        "id": "briteerp-database-and-ui-data-verification-(user-perspective);the-user-fills-out-required-lines-from-excel-\"phase-v\"--\"customerinfocard1\"-sheet;;11",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7197,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "the user is on Customers page",
+            "match": {
+              "location": "customerInfoCard_step_definition.the_user_is_on_Customers_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3599,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "the user clicks on Create button",
+            "match": {
+              "location": "customerInfoCard_step_definition.the_user_clicks_on_Create_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3085,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "\"User\" sendKeys \"9\" from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"9\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"Phase V\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"CustomerInfoCard1\"",
+                  "offset": 42
+                }
+              ],
+              "location": "customerInfoCard_step_definition.sendkeys_from_excel_sheet(String,Integer,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3084,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "\"User\" clicks \"Save\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Save\"",
+                  "offset": 14
+                }
+              ],
+              "location": "customerInfoCard_step_definition.clicks_button(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3084,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "\"User\" should be able to see \"9\" on page from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"9\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Phase V\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"CustomerInfoCard1\"",
+                  "offset": 63
+                }
+              ],
+              "location": "customerInfoCard_step_definition.should_be_able_to_see_on_page_from_excel_sheet(String,Integer,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3084,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "\"User\" should be able to see \"9\" in Database from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"9\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Phase V\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"CustomerInfoCard1\"",
+                  "offset": 67
+                }
+              ],
+              "location": "customerInfoCard_step_definition.should_be_able_to_see_in_Database_from_excel_sheet(String,String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BRIT-4441"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d72.0.3626.121)\n  (Driver info: chromedriver\u003d2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-2KH7HMM\u0027, ip: \u0027192.168.12.38\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\\Users\\aibek\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64202}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}\nSession ID: 5819ba8c67f8d42a12a706b6de2de885\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)\r\n\tat step_definitions.Hooks.setUp(Hooks.java:19)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:63)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:49)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:40)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:40)\r\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:67)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:22)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:72)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:122)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:64)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:131)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)\r\n\tat com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)\r\n\tat com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)\r\n\tat com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)\r\n",
+              "duration": 11748244,
+              "status": "failed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "The user fills out required lines from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+        "description": "",
+        "id": "briteerp-database-and-ui-data-verification-(user-perspective);the-user-fills-out-required-lines-from-excel-\"phase-v\"--\"customerinfocard1\"-sheet;;12",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7197,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "the user is on Customers page",
+            "match": {
+              "location": "customerInfoCard_step_definition.the_user_is_on_Customers_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5655,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "the user clicks on Create button",
+            "match": {
+              "location": "customerInfoCard_step_definition.the_user_clicks_on_Create_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19021,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "\"User\" sendKeys \"10\" from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"Phase V\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"CustomerInfoCard1\"",
+                  "offset": 43
+                }
+              ],
+              "location": "customerInfoCard_step_definition.sendkeys_from_excel_sheet(String,Integer,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5141,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "\"User\" clicks \"Save\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Save\"",
+                  "offset": 14
+                }
+              ],
+              "location": "customerInfoCard_step_definition.clicks_button(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3598,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "\"User\" should be able to see \"10\" on page from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Phase V\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"CustomerInfoCard1\"",
+                  "offset": 64
+                }
+              ],
+              "location": "customerInfoCard_step_definition.should_be_able_to_see_on_page_from_excel_sheet(String,Integer,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7197,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "\"User\" should be able to see \"10\" in Database from excel \"Phase V\", \"CustomerInfoCard1\" sheet",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Phase V\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"CustomerInfoCard1\"",
+                  "offset": 68
+                }
+              ],
+              "location": "customerInfoCard_step_definition.should_be_able_to_see_in_Database_from_excel_sheet(String,String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BRIT-4441"
+          }
+        ]
+      }
+    ],
+    "name": "BriteErp Database and UI Data verification (user perspective)",
+    "description": "",
+    "id": "briteerp-database-and-ui-data-verification-(user-perspective)",
+    "keyword": "Feature",
+    "uri": "src\\test\\resources\\features\\CustomerInfoCard.feature",
+    "tags": []
+  }
+]

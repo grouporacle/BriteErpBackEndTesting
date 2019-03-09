@@ -1,22 +1,18 @@
 package utilities;
 
+import org.apache.poi.ss.usermodel.*;
+import org.junit.Assert;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import org.apache.poi.ss.usermodel.*;
-import org.junit.Assert;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 /*
  * This is a utility for reading from writing to excel files.
  * it works with xls and xlsx files.
  */
-public class
-ExcelUtil {
+public class ExcelUtil {
 
     private Sheet workSheet;
     private Workbook workBook;
@@ -30,9 +26,8 @@ ExcelUtil {
             // Access the required test data sheet
             workBook = WorkbookFactory.create(ExcelFile);
             workSheet = workBook.getSheet(sheetName);
-            // check if sheet is null or not. null means  sheetname was wrong
-            Assert.assertNotNull("Sheet: \""+sheetName+"\" does not exist\n",workSheet);
 
+            Assert.assertNotNull("Sheet: "+sheetName+" does not exist",workSheet);
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
@@ -53,7 +48,7 @@ ExcelUtil {
 
         String[][] data = new String[rowCount()][columnCount()];
 
-        for (int i = 0; i <rowCount(); i++) {
+        for (int i = 0; i < rowCount(); i++) {
             for (int j = 0; j < columnCount(); j++) {
                 String value = getCellData(i, j);
                 data[i][j] = value;
@@ -68,7 +63,6 @@ ExcelUtil {
         List<String> columns = getColumnsNames();
         // this will be returned
         List<Map<String, String>> data = new ArrayList<>();
-
         for (int i = 1; i < rowCount(); i++) {
             // get each row
             Row row = workSheet.getRow(i);
@@ -79,12 +73,13 @@ ExcelUtil {
                 int columnIndex = cell.getColumnIndex();
                 rowMap.put(columns.get(columnIndex), cell.toString());
             }
-
             data.add(rowMap);
         }
-
         return data;
     }
+
+
+
 
     public List<String> getColumnsNames() {
         List<String> columns = new ArrayList<>();
@@ -128,9 +123,17 @@ ExcelUtil {
     }
 
     public int rowCount() {
-        return workSheet.getLastRowNum()+1;
+        return workSheet.getLastRowNum();
+    }
+
+    public static String todaysDate() {
+        String today = new SimpleDateFormat("MMMM dd, yyy").format(new Date());
+        return today;
+
+        // MMMM dd, yyy  --> February 17, 2019
+// MM-dd-yy     --> 02-17-19
+// dd-MM-yy    --> 17-02-19
+// yyyy-MM-dd hh:mm:ss   --> 2019-02-17 03:45:11
     }
 
 }
-
-

@@ -1,5 +1,7 @@
 package utilities;
 
+import org.openqa.selenium.support.PageFactory;
+
 public class ApplicationConstants {
     //titles of all buttons in homepage
     public static final String INBOX = "#Inbox - Odoo";
@@ -31,6 +33,7 @@ public class ApplicationConstants {
     public static final String LOST="Lost Reasons";
     public static final String ERRORMESSAGEINVALIDNAME ="The following fields are invalid:";
     public static final String OPPORTUNITYTITLE="Opportunities - Odoo";
+    public static final String PATH_PHASE_V=".\\src\\test\\resources\\test_data\\Phase 5 project.xlsx";
 
 
 
